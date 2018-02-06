@@ -1,0 +1,130 @@
+doctype html
+html(lang="ru-Ru")
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        block title
+        link(rel='stylesheet', href='css/concat-css-libs.min.css')
+        link(rel='stylesheet', href='css/concat-css.min.css')
+    body
+        #wrapper
+            <div class="overlay"></div>
+            .not_footer
+                block header
+                    <header class="header flex">
+                        <div class="header-content container flex">
+                        <button class="btn-nav"></button>
+                        <div class="logo">
+                            <a href="/">
+                                <img src="/img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="search flex">
+                            <form action="#" class="search-form flex">
+                                <input type="search" class="search-area" placeholder="поиск по сайту...">
+                                <input type="submit" class="search-btn" value="">
+                            </form>
+                        </div>
+                        <div class="contacts">
+                            <div class="phone">
+                                <p>+7 (981) 751-63-66</p>
+                            </div>
+                            <div class="adress flex">
+                                <img src="/img/flag.png" alt="flag">
+                                <p>СПб, 5 верхний переулок 15</p>
+                            </div>
+                        </div>
+                        <div id="msMiniCart"></div>
+                        </div>
+                    </header>
+                    <div class="products container">
+                        <div class="products-items flex">
+                            <div class="products-item">
+                                <img src="/img/product-1.jpg" alt="product">
+                            </div>
+                            <div class="products-item">
+                                <img src="/img/product-2.jpg" alt="product">
+                            </div>
+                            <div class="products-item">
+                                <img src="/img/product-2.jpg" alt="product">
+                            </div>
+                            <div class="products-item">
+                                <img src="/img/product-2.jpg" alt="product">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav flex">
+                        <div class="header-nav container flex">
+                            <nav class="main-nav">
+                                <ul class="flex">
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <span class="s1">» </span>
+                                                | Контакты
+                                        </a>
+                                        <span class="s2">/ </span>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <span class="s1">» </span>
+                                                | Доставка
+                                        </a>
+                                    <span class="s2">/ </span>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <span class="s1">» </span>
+                                                | Оплата
+                                        </a>
+                                        <span class="s2">/ </span>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <span class="s1">» </span>
+                                                | Гаранти
+                                        </a>
+                                        <span class="s2">/ </span>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <span class="s1">» </span>
+                                                | Возврат
+                                        </a>
+                                        <span class="s2">/ </span>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <span class="s1">» </span>
+                                                | Сервис
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="login-registr">
+                                <p class="flex">
+                                    <a href="#login" class="login flex">
+                                        | Войти<span class="s2">/</span>
+                                    </a>
+                                    <a href="#registr" class="registr flex">Регистрация</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                .content
+                    block content
+
+            block footer
+                <footer class="footer container">
+                    <a href="http:/vk.com/" class="vk">
+                        <img src="img/vk.png" alt="vk">
+                    </a>
+                    <a href="http://avito.ru/" class="avito">
+                        <img src="img/avito.png" alt="avito">
+                    </a>
+                </footer>
+        script(src='js/jquery-3.2.1.min.js')
+        script(src='js/concat-js-libs.min.js')
+        script(src='js/common.min.js')
+
+

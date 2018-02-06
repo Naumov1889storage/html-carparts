@@ -1,0 +1,13 @@
+@font-face {
+  font-family: '';
+  src: url("");
+}
+.disable {
+  pointer-events: none;
+  cursor: default;
+  color: #999;
+}
+.header ul li a.active {
+  font-size: 20px;
+  color: #a52a2a;
+}
