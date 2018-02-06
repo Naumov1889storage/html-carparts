@@ -1,0 +1,58 @@
+extends layout
+
+block title
+    title catalog closed
+
+block content
+    .catalog.container
+        h1 <span>Катализатор</span> для BMW 3-серия E36
+        <div class="bread-crumbs flex">
+            <a href="/">Главная</a><span> » </span>
+            <div class="select-btn-wrap">
+                <div class="select-btn"></div>
+                <div class="select-btn-content">
+                    <form action="#" class="select-btn-search flex">
+                        <input type="search" class="search-area-2" placeholder="Марка">
+                        <button type="button" class="btn-search" name="clear"></button>
+                    </form>
+                    <ul><li>Acura</li><li>Audi</li><li>BMW</li><li>Citroen</li><li>Chevrolet</li><li>Chery</li><li>Daewoo</li><li>Ford</li><li>Honda</li><li>Hyundai</li><li>Infiniti</li><li>KIA</li><li>Lexus</li><li>Mazda</li><li>Mercedes Benz</li><li>Mitsubishi</li><li>Nissan</li><li>Opel</li><li>Peugeot</li><li>Renault</li><li>SAAB</li><li>Subaru</li><li>Ssang Yong</li><li>Toyota</li><li>VAZ</li><li>Volvo</li><li>Volkswagen</li></ul>
+                </div>
+            </div>
+        |Audi
+        </div>
+        .flex_row__between
+            .catalog_left
+                .catalog_search
+                    input(type='text' placeholder='Быстрый поиск')
+                    button(type='submit')
+                .decor-useless
+                .accordion
+                    .accordion_title <i class='arrow'></i> Выхлопная система
+                    .accordion_content
+                        ul
+                            li
+                                a(href='') Болт подвески глушителя
+                            li
+                                a(href='') Задняя часть глушителя
+                            li(class='active')
+                                a(href='') Катализатор
+                            li
+                                a(href='') Бачок гидроусилителя
+                            li
+                                a(href='') Втулка рулевой рейки
+                .accordion
+                    .accordion_title <i class='arrow'></i> Двигатель
+                    .accordion_content
+                        ul
+                            li
+                                a(href='') Болт подвески глушителя
+                            li
+                                a(href='') Задняя часть глушителя
+                            li(class='active')
+                                a(href='') Катализатор
+                            li
+                                a(href='') Бачок гидроусилителя
+                            li
+                                a(href='') Втулка рулевой рейки
+            .catalog_right
+                block catalogRight

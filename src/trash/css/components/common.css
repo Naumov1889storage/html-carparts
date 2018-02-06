@@ -1,0 +1,41 @@
+/*
+@font-face {
+	font-family: 'Candara'
+	src: url('../fonts/Candara.ttf')
+}
+*/
+@font-face {
+  font-family: 'Impact';
+  src: url("/fonts/Impact.ttf");
+}
+.font-red {
+  color: #e93e45;
+}
+.container {
+  max-width: 988px;
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+}
+.header img {
+  max-width: 1500px;
+}
+.products-items img {
+  max-width: 1500px;
+}
+.login-registr {
+  width: 130px;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.not_footer {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}

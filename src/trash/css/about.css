@@ -1,0 +1,19 @@
+@font-face {
+  font-family: '';
+  src: url("");
+}
+html,
+body {
+  height: 100%;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.not_footer {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
